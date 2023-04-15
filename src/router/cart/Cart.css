@@ -1,0 +1,244 @@
+
+.cart__main__h2{
+    padding: 30px 0;
+}
+.cart__card img{
+    width: 100px;
+    margin: 10px;
+}
+.cart__delete__btn{
+    cursor: pointer;
+    color: #757575;
+    margin-right: 5px;
+    font-size: 20px;
+    margin-top: 10px;
+}
+.cart__delete__span{
+    margin-top: 10px;
+    color: #757575;
+}
+
+.cart__card__buttons{
+    width: 40px;
+    height: 30px;
+    border: none;
+}
+.cart__df{
+    display: flex;
+}
+.cart__df h3{
+    font-weight: normal;
+    font-size: 18px;
+    padding-left: 40px;
+    padding-top: 10px;
+    width: 85%;
+}
+
+.cart__container{
+    display: flex;
+    width: 100%;
+    flex-wrap: wrap;
+}   
+.cart__img{
+    width: 12%;
+}
+
+.cart__df{
+    width: 88%;
+    flex-wrap: wrap;
+}
+.cart__cards1{
+    width: 65%;
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid #E0E0E0;
+    background: #FCFDFD;
+}
+
+.cart__bottom{
+    display: flex;
+    margin-left: 40px;
+    margin-top: -40px;
+}
+.sotuvchi{
+    font-size: 14px;
+}
+.kopkina__buttons{
+    margin-left: 200px;
+    width: 150px;
+}
+.color__var{
+    background: var(--bg-py);
+    color: #fff;
+    width: 30px;
+}
+.color__var1{
+    border-radius: 10px 0 0  10px;
+}
+.color__var2{
+    border-radius:0 10px  10px 0 ;
+}
+.color__white{
+    width: 70px;
+    background: #fff;
+}
+.cart__bottom__price{
+    margin-left: 100px;
+    font-weight: bolder;
+    font-size: 18px;
+}
+.cart__form2{
+    width: 350px;
+    height: 400px;
+    border: 1px solid #E0E0E0;
+    background: #fff;
+    position: relative;
+    left: 70%;
+    top: -280px;
+}
+.cart__form2 h3{
+    font-weight: 500;
+    margin-left: 30px;
+    margin-top: 20px;
+    width: 90%;
+    font-size: 18px;
+}
+.cart__form2 p{
+    font-weight: normal;
+    margin-left: 30px;
+    margin-top: 10px;
+    width: 85%;
+    font-size: 16px;
+}
+.cart__form2__df{
+    display: flex;
+    justify-content: space-between;
+}
+.cart__form2__df__btn{
+    width: 82%;
+    margin-top: 10px;
+    background: #fff;
+    height: 25px;
+    border: 1px solid var(--bg-py);
+    margin-left: 30px;
+}
+.buyurtma{
+    margin-left: 30px;
+    margin-top: 20px;
+}
+hr{
+    margin-top: 10px;
+}
+.cart__form2__df2{
+    display: flex;
+    margin-top: 80px;
+}
+.cart__form2__df__btn2{
+    width: 82%;
+    margin-left: 30px;
+    background: var(--bg-py);
+    border: none;
+    height: 40px;
+    color: #fff;
+    border-radius: 10px;
+    margin-top: 30px;
+}
+.cart__form2 input{
+    width: 82%;
+    margin-top: 10px;
+    height: 35px;
+    padding-left: 10px;
+    margin-left: 30px;
+    outline: none;
+    border-radius: 8px;
+    border: 1px solid #757575;
+}
+
+
+
+@media screen and (max-width: 1120px) {
+    .cart__cards1{
+        width: 100%;
+    }
+    .cart__form2{
+        display: none;
+    }
+    
+    .cart__bottom__price{
+        margin-right: 100px;
+    }
+}
+@media screen and (max-width: 910px){
+    .kopkina__buttons{
+        margin-left: 120px;
+    }.cart__bottom__price{
+        margin-top: 5px;
+        position: relative;
+        left: 90px;
+        text-align: center;
+
+    }
+}
+@media screen and (max-width: 730px){
+    .cart__bottom__price{
+        margin-left: 0;
+        text-align: center;
+    }
+}
+@media screen and (max-width: 600px){
+    .cart__cards1{
+        width: 100%;
+    }
+    .cart__df h3{
+        width: 70%;
+        font-size: 14px;
+        margin-left: 25px;
+    }
+    .sotuvchi{
+        font-size: 14px;
+        margin-left: 25px;
+        margin-top: -10px;
+    }
+    .kopkina__buttons{
+        margin-left: 20px;
+    }
+    .cart__card__buttons{
+        width: 25px;
+    }
+    .cart__bottom__price{
+        font-size: 14px;
+        margin-left: -30px;
+        margin-top: -5px;
+        text-align: center;
+    }
+}
+@media screen and (max-width: 500px){
+    .cart__img{
+        width: 60%;
+        padding-left: 40%;
+        height: 30%;
+    }
+    .cart__df{
+        height: 55%;
+        padding-top: 30px;
+        margin-left: 0;
+    }
+    .cart__cards1{
+        height: 270px;
+        display: block;
+    }
+    .cart__df{
+        margin-top: 20px;
+    }
+    .cart__df h3{
+        width: 100%;
+        text-align: center;
+    }
+    .cart__delete__btn,.cart__delete__span{
+        position: relative;
+        top: 40px;
+        left: 43%;
+        font-size: 22px;
+
+    }
+}

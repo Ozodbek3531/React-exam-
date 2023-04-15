@@ -1,0 +1,26 @@
+.sidebar{
+    height: 100%;
+    background: var(--bg-py);
+    padding: 24px;
+    color: #fff;
+
+}
+.sidebar__collection{
+    margin-top: 50px;
+    position: sticky;
+    top: 50px;
+    left: 0;
+}
+.sidebar__link{
+    display: block;
+    width: 100%;
+    padding: 10px;
+    border-bottom: 1px solid #fff;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    transition: .25s;
+}
+.sidebar__link.active{
+    background: #fff;
+    color: var(--bg-py);
+}

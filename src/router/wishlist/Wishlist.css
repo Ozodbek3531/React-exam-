@@ -1,0 +1,12 @@
+.pro__heart svg{
+    color: var(--bg-py);
+}
+.pro__bottom2{
+    display: block;
+    padding-left: 0;
+    padding-top: 10px;
+}
+.bir__klik{
+    width: 200px;
+    margin-top: 20px;
+}

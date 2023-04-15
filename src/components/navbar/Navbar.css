@@ -1,0 +1,344 @@
+.navbar{
+    position: sticky;
+    top: 0;
+    z-index: 20;
+    height: 130px;
+    background: #fff;
+    padding-left: 20px;
+}
+.navbar__top {
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+
+.nav__logo {
+    color: var(--bg-py);
+    margin-top: 10px;
+}
+.nav__logo img{
+    object-fit: contain;
+    padding-top: 5px;
+}
+
+.navbar__bottom__bolimlar {
+    border: none;
+    border-radius: 5px;
+    display: flex;
+    gap: 6px;
+    align-items: center;
+    background: transparent;
+    font-size: 18px;
+
+}
+
+.nav__search {
+    width: 50%;
+    height: 40px;
+    border: 2px solid var(--bg-py);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 10px;
+    overflow: hidden;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+.nav__search input {
+    flex: 1;
+    height: 100%;
+    border: none;
+    outline: none;
+    text-indent: 10px;
+}
+
+.nav__search button {
+    width: 100px;
+    background: var(--bg-py);
+    height: 100%;
+    font-size: 17px;
+    border: none;
+    color: #fff;
+    display: flex;
+    font-weight: 500;
+    padding: 8px;
+    transition: .3s;
+}
+.nav__search button:hover{
+    cursor: pointer;
+    background: rgb(49, 49, 245);
+    transition: .3s;
+}
+.nav__search button span{
+    padding-left: 5px;
+}
+
+.nav__icons {
+    margin-left: 15px;
+    display: flex;
+    gap: 10px;
+}
+
+.nav__item {
+    margin-left: 13px;
+    height: 34px;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+    transition: .3s;
+}
+.nav__item:hover{
+    color: var(--bg-py);
+    transition: .3s;
+}
+.nav__item svg{
+    font-size: 25px;
+}
+.nav__item img{
+    width: 30px;
+}
+
+.navbar__bottom {
+    overflow: auto;
+}
+
+.navbar__bottom::-webkit-scrollbar {
+    height: 0;
+}
+
+
+.nav__var__color{
+    color: var(--bg-py);
+}
+.nav__col-item {
+    white-space: nowrap;
+    font-size: 12px;
+    color: #777;
+}
+
+.nav__none {
+    display: none;
+}
+
+/* Login css */
+
+.nav__shadow {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    background: #0006;
+    z-index: 11;
+}
+
+.nav__login {
+    width: 350px;
+    min-height: 360px;
+    background: #fff;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 12;
+    border-radius: 15px;
+    padding: 20px;
+    line-height: 3;
+}
+
+.nav__close {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    font-size: 26px;
+    cursor: pointer;
+}
+
+.raqam input {
+    border: none;
+    width: inherit;
+    height: 50px;
+    width: 253px;
+    border-radius: 0 10 10px 0;
+}
+
+.raqam {
+    border: 2px solid #000;
+    border-radius: 10px;
+}
+
+.s {
+    color: rgb(240, 120, 140);
+}
+
+.nav__btn {
+    padding: 15px 120px;
+    margin-top: 50px;
+    background: rgb(240, 120, 140)rgb(240, 120, 140);
+    border: none;
+    border-radius: 12px;
+}
+
+.nav__btn:hover {
+    background: #fff;
+    border: 2px solid rgb(240, 120, 140);
+}
+
+.error {
+    display: block;
+    margin-top: 10px;
+    text-align: center;
+    color: red;
+    opacity: 0;
+    user-select: none;
+
+}
+
+.nav__login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    gap: 30px;
+}
+
+.nav__login button {
+    padding: 10px 30px;
+}
+
+.ad__inputs {
+    width: 200px;
+    height: 30px;
+
+}
+
+
+.nav__collection {
+    display: flex;
+    padding: 15px 0;
+    justify-content: space-evenly;
+    cursor: pointer;
+}
+.nav__collection span{
+    font-size: 15px;
+    font-weight: bolder;
+    cursor: pointer;
+    transition: .3s;
+    max-width: 200px;
+}
+ 
+.nav__collection span:hover{
+    color: var(--bg-py);
+    transition: .3s;
+}
+
+.catalog {
+    position: fixed;
+    top: 130px;
+    left: 0;
+    width: 100%;
+    height: 700px;
+    z-index: 11;
+    background: #fff;
+}
+
+.catalog__wrapper {
+    width: 25%;
+    height: 100%;
+    padding: 10px 45px;
+    border-right: 1px solid #ddd;
+}
+
+.catalog__icon {
+    width: 280px;
+    display: flex;
+    margin-bottom: 10px;
+    align-items: center;
+    gap: 20px;
+    padding: 15px 10px;
+    transition: .3s;
+    border-radius: 5px;
+}
+
+
+
+.catalog__icon p{
+    flex: 1;
+    color: #000;
+}
+
+@media screen and (max-width: 1000px) {
+    .navbar{
+        height: 80px;
+    }
+    .nav__collection{
+        display: none;
+    }
+}
+@media screen and (max-width: 900px) {
+    .nav__icons {
+        position: fixed;
+        bottom: 0;
+        left: 0;
+        background: #fff;
+        width: 100%;
+        height: 50px;
+        margin-left: 0;
+        border-top: 1px solid #f7f7f7;
+        align-items: center;
+        justify-content: space-evenly;
+        background: #fff;
+        z-index: 20;
+    }
+
+    .nav__item {
+        flex-direction: column;
+        height: auto;
+        padding: 0;
+    }
+
+    .nav__item span {
+        font-size: 12px;
+    }
+
+    .nav__item svg {
+        font-size: 20px;
+    }
+
+    .nav__none {
+        display: flex;
+    }
+    .navbar{
+        padding-left: 7%;
+        padding-right: 0px;
+    }
+    .nav__search{
+        width: 70%;
+        margin-left: 6%;
+    }
+
+}
+
+@media screen and (max-width: 550px) {
+    .navbar__top {
+        height: auto;
+        flex-wrap: wrap;
+        gap: 10px;
+        padding: 10px 0;
+        justify-content: space-between;
+    }
+    .nav__search {
+        width: 80%;
+        margin-left: 0;
+        margin: auto;
+    }
+
+    .navbar{
+        height: 150px;
+        padding-left: 0;
+    }
+    .nav__logo{
+        margin: auto;
+    }
+}

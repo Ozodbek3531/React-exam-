@@ -1,0 +1,163 @@
+.product__wrapper{
+    width: 100%;
+    display: flex;
+    gap: 15px ;
+    margin-top: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.product__card{
+    width: 245px;
+    height: 380px;
+    background: #fff;
+    font-size: 14px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    transition: .3s;
+    position: relative;
+    border-radius: 10px;
+}
+
+.pro__card-img {
+    width: 100%;
+    height: 50%;
+    overflow: hidden;
+    border-radius: 10px;
+    margin-bottom: 10px;
+    object-fit: contain;
+}
+.pro__card-img img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    transition: .3s;
+}
+.product__card:hover img{
+    transform: scale(1.06);
+}
+
+.product__card del{
+    display: block;
+    margin-left: 20px;
+    color: #AF56A0;
+    padding-top: 5px;
+    font-weight: bolder;
+}
+.pro__card-price{
+    margin-left: 20px;
+    font-size: 18px;
+    font-weight: bold;
+}
+.pro__bottom{
+    display: flex;
+    padding-top: 10px;
+    color: var(--bg-py);
+    padding-left: 20px;
+}
+.pro__card-title{
+    margin-left: 20px;
+}
+
+.bottom__top{
+    width: 100%;
+}
+.bir__klik{
+    height: 35px;
+    background: var(--bg-py);
+    color: #fff;
+    border: none;
+    width: 80%;
+    cursor: pointer;
+    margin-left: 20px;
+    border-radius: 10px;
+    margin-top: 10px;
+}
+
+.pro__heart {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+
+
+.footer__skill{
+    width: 100%;
+    background: #fff;
+    padding-left: 30px;
+    border-radius: 20px;
+    margin-top: 50px;
+    padding-top: 30px;
+}
+.footer__skill p{
+    width: 95%;
+    margin-top: 20px;
+    line-height: 1.4;
+    font-size: 16px;
+    color: #212529;
+}
+.footer__skill h3{
+    border: 1px solid #ddd;
+    font-size: 16px;
+    font-weight: normal;
+    width: 95%;
+    height: 50px;
+    padding: 17px 20px;
+    color: #212529;
+    cursor: pointer;
+}
+
+.footer__skill__h3__firstchild{
+    border-radius: 15px 15px 0 0;
+}
+.footer__skill__h3__lastchild{
+    border-radius: 0 0 15px 15px;
+}
+
+.footer__collection{
+    margin-top: 50px;
+}
+.footer__collection li{
+    margin-top: 5px;
+    font-size: 16px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media screen and (max-width:600px) {
+    .product__wrapper{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-gap: 10px 5px ;
+    }
+    .product__card{
+        width: auto;
+    }
+}
+
+@media screen and (max-width:400px){
+    .pro__card-img {
+        height: 230px;
+    }
+}

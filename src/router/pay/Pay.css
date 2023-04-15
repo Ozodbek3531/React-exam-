@@ -1,0 +1,46 @@
+.pay__card{
+    margin: auto;
+    width: 450px;
+    background: #fff;
+    padding-left: 30px;
+    margin-top: 30px;
+    height: 400px;
+    border-radius: 15px;
+}
+.pay__card h1{
+    padding: 25px 0;
+    color: #13306A;
+    font: 40px Roboto,sans-serif;
+    font-weight: 500;
+}
+.pay__card__alone_p{
+    color: #666;
+    font-size: 16px;
+    width: 85%;
+    line-height: 1.4;
+    font-weight: 500;
+}
+.pay__card input{
+    width: 85%;
+    margin: 20px 0;
+    height: 40px;
+    padding-left: 10px;
+    font-size: 18px;
+    border: 2px solid #C2C6D1;
+    outline: none;
+    border-radius: 10px;
+}
+.pay__card button{
+    width: 100px;
+    height: 40px;
+    background: var(--bg-py);
+    border: none;
+    border-radius: 10px;
+    font-size: 14px;
+    color: #fff;
+    cursor: pointer;
+}
+.pay__letter{
+    font-size: 10px;
+    padding-top: 25px;
+}

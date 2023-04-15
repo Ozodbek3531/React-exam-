@@ -1,0 +1,188 @@
+.single__container{
+    display: flex;
+    margin-top: 20px;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.single__card{
+    width: 47%;
+    height: 600px;
+}
+.single__card img{
+    width: 100%;
+    height: 100%;
+}
+.single__card__orab{
+    font-size: 14.5px;
+    color: #555;
+    margin-top: 10px;
+    display: flex;
+}
+.single__heart{
+    margin-left: 30%;
+    margin-right: 5px;
+    font-size: 18px;
+}
+.single__left {
+    margin-left: 20px;
+}
+.single__main__h2{
+    margin-top: 10px;
+    font-weight: normal;
+}
+.single__star{
+    color: rgb(224, 224, 21);
+    margin-right: 5px;
+}
+
+
+.single__orab{
+    display: flex;
+    margin-top: 10px;
+}
+.orab__span{
+    width: 160px;
+}
+.single__card hr{
+    margin-top: 20px;
+}
+.razmer{
+    margin-top: 25px;
+}
+.singlroute__btns{
+    gap: 15px;
+}
+.singlroute__btns button{
+    width: 80px;
+    height: 40px;
+    border: 1px solid #777;
+    border-radius: 5px;
+    background: #fff;
+}
+
+.single__card__price{
+    display: flex;
+    flex-wrap: wrap;
+}
+.single__del{
+    margin-top: 8px;
+    font-size: 14px;
+    padding: 5px 20px;
+    color: #777;
+}
+.som{
+    margin-left: -35px;
+}
+.font{
+    font-size: 18px;
+}
+.margin__top{
+    width: 100%;
+    margin-top: 20px;
+}
+.price__btn{
+    width: 100%;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    margin-top: 25px;
+    padding-right: 250px;
+    font-size: 16px;
+    background: rgb(245, 245, 245);
+    transition: .3s;
+    
+}
+.price__btn:hover{
+    cursor: pointer;
+    background: #ddd;
+    transition: .3s;
+}
+.price__btn span{
+    background: rgb(255, 255, 42);
+    margin-right: 15px;
+}
+.single__btn__df{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+.single__btn__df__button{
+    width: 48%;
+    height: 55px;
+    font-size: 18px;
+    border-radius: 8px;
+    transition: .3s;
+    cursor: pointer;
+}
+.button__btn1{
+    background: var(--bg-py);
+    border: none;
+    color: #fff;
+}
+.button__btn2{
+    background: #fff;
+    border: 1px solid var(--bg-py);
+    color: var(--bg-py);
+}
+.price__button{
+    width: 100%;
+    height: 50px;
+    border: none;
+    border-radius: 10px;
+    margin-top: 25px;
+    padding-right: 250px;
+    font-size: 16px;
+    background: rgb(255,247,193);
+    transition: .3s;
+    
+}
+
+
+
+@media screen and (max-width: 1100px){
+    .extra__card2{
+        width: 50%;
+    }
+    .extra__card{
+        width: 44%;
+        margin-right: 50px;
+    }
+    .single__heart{
+        margin-left: 15%;
+    }
+    .price__btn, .price__button{
+        padding-right: 80px;
+    }
+    .single__btn__df__button{
+        width: 49%;
+        font-size: 15px;
+    }
+}
+@media screen and (max-width: 930px){
+.single__card{
+    width: 80%;
+    margin: auto;
+}
+.extra__card img{
+    object-fit: cover;
+    width: 100%;
+}
+.leftga{
+    margin-left: 35%;
+}
+}
+@media screen and (max-width: 750px){
+.single__card__orab{
+    display: none;
+}
+}
+@media screen and (max-width: 560px){
+    .single__btn__df__button{
+        width: 100%;
+        margin-top: 20px;
+    }
+    .price__btn{
+        display: none;
+    }
+}

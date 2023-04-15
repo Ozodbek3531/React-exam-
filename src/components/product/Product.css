@@ -155,6 +155,14 @@
         width: auto;
     }
 }
+@media screen and (max-width:445px) {
+    .product__wrapper{
+        display: flex;
+    }
+    .product__card{
+        width: 80%;
+    }
+}
 
 @media screen and (max-width:400px){
     .pro__card-img {

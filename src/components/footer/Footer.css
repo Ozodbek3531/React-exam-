@@ -166,15 +166,40 @@
 }
 @media screen and (max-width: 500px){
     .footer__collection__with{
-        width: 80%;
+        width: 100%;
+    }
+    .footer__collection__with li{
+        font-size: 14px;
     }
     .footer__bootom__cards__collection{
         margin-top: 20px;
     }
+    .footer__bootom__cards__collection span{
+        font-size: 17px;
+    }
     .alone__p{
         font-size: 14px;
+        text-align: center;
     }
     .footer__the__bottom img{
-        width: 40px;
+        width: 45px;
+    }
+    .footer__mobile li,.footer__tarmoq{
+        font-size: 14px;
+    }
+    .footer__bottom__card__df{
+        margin-left: -30px;
+    }
+    .footer__tarmoq li{
+        font-size: 18px;
+        margin-left: -5px;
+    }
+    .footer__the__bottom{
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .footer__the__bottom span{
+        width: 100%;
+        text-align: center;
     }
 }

@@ -308,6 +308,7 @@
 
     .nav__none {
         display: flex;
+        text-align: center;
     }
     .navbar{
         padding-left: 7%;
@@ -321,9 +322,18 @@
 }
 
 @media screen and (max-width: 550px) {
+    .nav__icons{
+        display: flex;
+        flex-wrap: wrap;
+        height: 100px;
+    }
+    .nav__item{
+        width: 20%;
+    }
     .navbar__top {
         height: auto;
         flex-wrap: wrap;
+        display: flex;
         gap: 10px;
         padding: 10px 0;
         justify-content: space-between;
@@ -335,7 +345,8 @@
     }
 
     .navbar{
-        height: 150px;
+        height: 130px;
+        width: 100%;
         padding-left: 0;
     }
     .nav__logo{

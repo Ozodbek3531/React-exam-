@@ -90,7 +90,7 @@ function Footer() {
                     <li className="footer__bootom__cards__collection__item"><FiMail/> info @asaxiy.uz</li>
                     <li className="footer__bootom__cards__collection__item"><ImLocation/> Chilonzor 3, Toshkent</li>
                 </ul>
-                <ul className="footer__bootom__cards__collection">
+                <ul className="footer__bootom__cards__collection footer__tarmoq">
                     <span>Biz ijtimoij tarmoqlarda :</span>
                     <div className="icons__displayflex">
                     <li className="footer__bootom__cards__collection__icons"><FaFacebookF/></li>
